@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+
+header {
+    background: rgba(0, 26, 129, 0.7);
+    width: 100%;
+    position: static;
+    z-index: 100;
+  }
+
+
+  :root{
+    --main-color:aqua;
+    --text-color:rgb(126, 73, 73);
+    --text-color-hover:blue;
+    --text-color-parrafo:grey;
+}
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #e1e1e1;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+  
+h1{
+    color: rgb(246, 255, 0);
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+#respuesta{
+    color: rgb(7, 7, 7);
+}
+html{
+background-color: rgb(203, 111, 6);
+}
+
+
+.faq .faq__pregunta{
+    color: rgb(219, 255, 15);
+
+}
+.card{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 1px;
+
+}
+.boton-div{
+    width:200px;
+    height: 200px;
+    padding:15px;
+    border:5px solid grey;
+    margin:10px;
+}
+
+.image{
+background-color: aliceblue;
+}
+
+
+.menu .image{
+background-color: rgb(246, 255, 127);
+}
+
+.menu__image{
+    background-color: aquamarine; 
+}
+.fondo__image{
+    background-color: rgb(9, 80, 234); 
+}
+
+.boton-div{
+    width:300px;
+    height: 200px;
+    padding:15px;
+    border:10px solid rgb(5, 20, 105);
+    margin:10px;
+}
+.boton-div__enviar{
+    font-size: 14px;
+    color: blue;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/965/165/desktop-wallpaper-best-5-boca-on-hip-club-atletico-boca-juniors.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+
+
+
